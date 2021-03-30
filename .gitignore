@@ -1,0 +1,12 @@
+.env
+.venv
+.aws
+.vscode
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+.idea
+.DS_Store
+pip-wheel-metadata
+data_platform/data_platform.egg-info
