@@ -12,13 +12,7 @@ glue_catalog = GlueCatalogStack(app, data_lake_bucket=data_lake_raw_bucket)
 athena_stack = AthenaStack(app)
 kinesis_stack = KinesisStack(app, data_lake_raw_bucket=data_lake.data_lake_raw_bucket)
 
-.synth()
-
-
-
-
-
-
+synth()
 
 
 
