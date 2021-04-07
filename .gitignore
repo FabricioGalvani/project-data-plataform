@@ -2,6 +2,7 @@
 .venv
 .aws
 .vscode
+configkeys.dev
 
 # CDK asset staging directory
 .cdk.staging
